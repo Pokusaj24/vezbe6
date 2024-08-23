@@ -1,0 +1,16 @@
+<?php
+require 'flight/Flight.php';
+require '../DAO.php';
+
+Flight::route('GET /telefon', function() {
+    $dao = new DAO();
+    echo json_encode($dao->svi());
+});
+
+Flight::route('GET /telefon/sort', function() {
+    $dao = new DAO();
+    echo json_encode($dao->sortPoCeni());
+});
+
+Flight::start();
+?>
