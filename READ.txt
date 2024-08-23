@@ -1,0 +1,10 @@
+Kreirati bazu sa tabelom Telefon sa poljima id, marka i cena i ručno popuniti nekoliko Telefona u bazi.
+Kreirati DAO klasu sa metodama: 
+	- ArrayList <Telefon> svi(): vraća listu svih proizvoda.
+	- ArrayListTelefon> sortPoCeni() vraća listu sortiranih telefona
+Kreirati index.php  sa formom za prosleđivanje parametara marka i cena na  Kontroler pomoću tabele.
+Kreirati kontroler koji u:
+	- doPost rešava funkcionalnost sa dugmeta i rezultate upita šalje na prikaz1.php
+	- doGet rešava funkcionalnost sa dugmeta 2 i rezultate upita šalje na prikaz2.php
+Kreirati prikaz1.php i prikaz2.php za odgovarajuće ispise.
+Povezati DAO, KONTROLER i PHP koji rade
